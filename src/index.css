@@ -1,13 +1,47 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  height: 4.375rem;
+  padding-block: 1.375rem;
+  padding-inline: 1.875rem;
+  display: flex;
+
+  box-shadow: 0 0.1875rem 0.4688rem rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  padding-block: 1.625rem;
+  padding-inline: 2.25rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.9375rem;
+}
+
+.hero img {
+  max-width: 25rem;
+  align-self: center;
+}
+
+.hero__text {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hero__text p { width: 20rem; }
+
+.hero__text h1 {
+  margin-bottom: 1rem;
+
+  font-size: 2.25rem;
+  font-weight: 600;
 }
