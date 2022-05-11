@@ -62,10 +62,16 @@ nav {
 
 .card {
     width: 11rem;
+    position: relative;
+
+    font-size: 0.625rem;
 }
 
-.card__image {
-    position: relative;
+.card__list {
+    padding-inline: 2.25rem;
+    display: flex;
+    gap: 1.125rem;
+    overflow-x: scroll;
 }
 
 .card__badge {
@@ -80,7 +86,6 @@ nav {
 
     background-color: white;
     border-radius: 0.125rem;
-    font-size: 0.625rem;
 }
 
 .card__caption {
